@@ -1,4 +1,3 @@
-Figures
-Report
-!maturaAPIreport.tex
-!biblioMaturaAPI.bib
+report/*
+!report/MaturaAPIreport.tex
+!report/biblioMaturaAPI.bib
