@@ -152,19 +152,11 @@ Making available for non-R users requires usage of chargeable services provided 
 We will provide installation instructions only for R users. Download and unzip the \texttt{zip} file containing project's material. The necessary files to run the application are \texttt{container.RDS} and \texttt{programs\_list.RDS} in \texttt{RDS} folder and \texttt{app.R} under project's root directory. The other files serve for data wrangling purposes and are not necessary if the RDS files are available. Note that one can also copy only the three files in a new folder but the current structure needs to be maintained, i.e. RDS files need to be located in a folder named \texttt{RDS} \footnote{Another option would be to change files path in \texttt{app.R} file}. Package \texttt{Shiny} need to be installed through the \texttt{install.packages(Shiny)} command or by opening \texttt{app.R} and clicking \texttt{Run Application} button, in which case \texttt{Shiny} will auto install. If the latter is chosen, this will also launch the web application. If one would like to use the command prompt to launch the application this is easily done by setting the directory where \texttt{app.R} as the working directory and typing \texttt{runApp()} on the command prompt.
 
 When we make the project public in GitHub and Gist a quick way, assuming package \texttt{Shiny} has been installed, would be by typing
-	\begin{itemize}
-		\item for GitHub
-		 \begin{lstlisting}[language=R]
-		rungGitHub("repositoryName","kreshnikxhangolli")
-		\end{lstlisting}
-		\item for Gist
-		 \begin{lstlisting}[language=R]
-		runGist("url")
-		runGist("xxxxxxx")
-		runGist(xxxxxxx)
-		\end{lstlisting}
-		\item where \texttt{repositoryName} refers to the name of the repository we will save the project, \texttt{url} to the future Gist url and \texttt{xxxxxxx} to the unique numeric identifier assigned by Gist. 
-	\end{itemize}
+
+ \begin{lstlisting}[language=R]
+ 		library(shiny)
+		runGitHub("matura-albania-Lite","kreshnikxhangolli")
+\end{lstlisting}
 
 % \vspace{1in}
 \bibliographystyle{apalike}
