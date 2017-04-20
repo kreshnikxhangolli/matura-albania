@@ -1,3 +1,4 @@
 report/*
 !report/MaturaAPIreport.tex
 !report/biblioMaturaAPI.bib
+.Rproj.user

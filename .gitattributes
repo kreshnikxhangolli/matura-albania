@@ -1,0 +1,5 @@
+Report/* linguist-documentation
+Data/* linguist-documentation
+Figures/* linguist-documentation
+Full_Project_Report.pdf linguist-documentation
+*.rds linguist-language=R
